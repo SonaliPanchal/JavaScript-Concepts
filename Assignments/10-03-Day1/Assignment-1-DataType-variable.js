@@ -1,8 +1,15 @@
 //Create simple function utilizing all primitive datatypes and scope concept.
+//inbuild by the language 
 
 let globalNum = 100; //global integer
 let globalString = "Indore";
 let GlobalBool = true;
+
+{
+
+
+  
+}
 
 function TestFuntion() {
   let localNum = 1000; //Local integer

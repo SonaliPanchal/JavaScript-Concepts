@@ -15,7 +15,6 @@ const promissForrandomNumber = new Promise((resolve, reject) => {
   //this is callback function =>
   setTimeout(() => {
     // this is async function
-    // write your code here and that code will excete with given time delay
     const randonValue = Math.random();
 
     if (randonValue > 0) {
@@ -27,7 +26,7 @@ const promissForrandomNumber = new Promise((resolve, reject) => {
 });
 
 promissForrandomNumber
-  .then((result) => {//handler
+  .then((result) => {//handler or a callback function which take two arrgumenet and which make our promiss either sucess or reject
     console.log("Promiss Got full filled  " , result);
   })
   .catch((error) => {

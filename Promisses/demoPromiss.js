@@ -10,6 +10,7 @@ at some point of time
 
 
 const promis1 = new Promise((resolve, reject) => {
+
   setTimeout(() => {
     const randomNum = Math.random();
     if (randomNum > 0) {
@@ -20,6 +21,7 @@ const promis1 = new Promise((resolve, reject) => {
   }, 5000);
 });
 
+//handler or a callback function which take two arrgumenet and which make our promiss either sucess or reject
 promis1
   .then((result) => {
     console.log("Prmis", result);
@@ -31,8 +33,9 @@ promis1
 
  
 /* Promiss Chanin :
-Prmisses we can chain together usin .then and use the first resul in second .then this we are y=using for syqunce async call*/
-  /*
+Prmisses we can chain together using .then and use the first result in second 
+.then this we are using for syqunce async call*/
+  
 function getEvenNumber(value, delay) {
   new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -56,4 +59,4 @@ getEvenNumber(4, 1000)
     console.log("Promiss chain error" + error);
   });
 
-  */
+

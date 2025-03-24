@@ -7,7 +7,7 @@ const function1 = ()=>{
         setTimeout(()=>{
 console.log(" Promiss 1 is calling")
         })
-    },1000)
+    },5000)
 
 }
 
@@ -16,7 +16,7 @@ const function2 = ()=>{
         setTimeout(()=>{
 console.log(" Promiss 2 is calling")
         })
-    },1000)
+    },2400)
 
 }
 
